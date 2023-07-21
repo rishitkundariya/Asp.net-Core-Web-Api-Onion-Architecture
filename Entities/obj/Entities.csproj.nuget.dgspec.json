@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project\\Asp.net Core Web Api Onion Architecture\\ApiProjectArchitecture.csproj": {}
+    "F:\\Project\\Asp.net Core Web Api Onion Architecture\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "F:\\Project\\Asp.net Core Web Api Onion Architecture\\ApiProjectArchitecture.csproj": {
+    "F:\\Project\\Asp.net Core Web Api Onion Architecture\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project\\Asp.net Core Web Api Onion Architecture\\ApiProjectArchitecture.csproj",
-        "projectName": "ApiProjectArchitecture",
-        "projectPath": "F:\\Project\\Asp.net Core Web Api Onion Architecture\\ApiProjectArchitecture.csproj",
+        "projectUniqueName": "F:\\Project\\Asp.net Core Web Api Onion Architecture\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "F:\\Project\\Asp.net Core Web Api Onion Architecture\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Rishit Kundariya\\.nuget\\packages\\",
-        "outputPath": "F:\\Project\\Asp.net Core Web Api Onion Architecture\\obj\\",
+        "outputPath": "F:\\Project\\Asp.net Core Web Api Onion Architecture\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rishit Kundariya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "F:\\Project\\Services\\Services.csproj": {
-                "projectPath": "F:\\Project\\Services\\Services.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -43,12 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -61,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

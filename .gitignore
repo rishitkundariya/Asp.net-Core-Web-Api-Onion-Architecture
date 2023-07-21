@@ -1,3 +1,10 @@
-bin/
-.vs/
-obj/Debug
+ApiProjectArchitecture/bin/
+ApiProjectArchitecture/.vs/
+ApiProjectArchitecture/obj/Debug/
+Data/bin/
+Data/obj/Debug/
+Entities/bin/
+Entities/obj/Debug/
+Services/bin/
+Services/obj/Debug/
+.gitignore
