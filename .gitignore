@@ -7,4 +7,6 @@ Entities/bin/
 Entities/obj/Debug/
 Services/bin/
 Services/obj/Debug/
+Utilities/bin/
+Utilities/obj/Debug/
 .gitignore
